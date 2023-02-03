@@ -1,0 +1,3 @@
+let l:bm_file_version = 1
+let l:bm_sessions = {'default': {'C:\Users\wangj\AppData\Local\nvim\init.lua': [{'sign_idx': 9500, 'line_nr': 1, 'content': 'require("bootstrap")', 'annotation': 'init'},],'C:\Users\wangj\AppData\Local\nvim\lua\core\basic.lua': [{'sign_idx': 9500, 'line_nr': 37, 'content': 'vim.cmd([[au InsertLeave *.go,*.cpp write]])', 'annotation': 'cpp'},],}}
+let l:bm_current_session = 'default'

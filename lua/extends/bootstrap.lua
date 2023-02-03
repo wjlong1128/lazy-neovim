@@ -11,15 +11,16 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-local state,plugins = pcall(require,'extends.plugins')
-
-if not state then return end
+local plugins = require("extends.plugins")
 
 local opts = {
+  default = {
+    lazy = false,
+  },
   git = {
-    url_format = "git@github.com:%s.git"
-  }
-}  
+    url_format = "git@github.com:%s.git",
+  },
+}
 
 require("lazy").setup(plugins, opts)
-require('./manage')
+require("extends.manage")

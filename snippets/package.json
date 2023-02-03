@@ -1,0 +1,19 @@
+{
+	"name": "wjl-snippets",
+	"contributes": {
+		"snippets": [
+			{
+				"language": [
+					"cpp"
+				],
+				"path": "./vscode/cpp.json"
+			},
+			{
+				"language": [
+					"java"
+				],
+				"path": "./vscode/java.json"
+			}
+		]
+	}
+}
