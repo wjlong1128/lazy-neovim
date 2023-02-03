@@ -1,1 +1,1 @@
-require 'core.bootstrap'
+require 'bootstrap'
