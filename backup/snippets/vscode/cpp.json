@@ -1,0 +1,29 @@
+{
+  "Main":{
+    "prefix":"main",
+    "body":[
+      "#include <iostream>",
+      "",
+      "int main()",
+      "{",
+      "\t$1",
+      "\treturn 0;",
+      "}"
+    ]
+  },
+  "Add for loop": {
+     "prefix": "fori",
+     "description": "Insert for loop",
+     "body": [
+      "for (${1:int} ${2:i} = 0; ${2:i} < ${3:count}; ${4:${2:i}++}) {",
+      "\t${0:/* code */}",
+      "}"
+     ]
+  },
+  "cout":{
+    "prefix":["cout","sout","pri"],
+    "body":[
+      "std::cout << $1 << std::endl;"
+    ]
+  }
+}
